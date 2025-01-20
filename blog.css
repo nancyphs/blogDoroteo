@@ -2,7 +2,12 @@
     font-family: "Dongle", serif;
     font-weight: 400;
     font-style: normal;
-  }
-h1{
+}
+
+h1 {
     font-family: "Dongle", serif;
-}  
+    font-size: clamp(32px, 5vw, 64px); /* Permite adaptar el tamaño de la fuente de un sitio web a diferentes tamaños de pantalla */
+    font-weight: 700; /* Define el grosor o peso de la letra */
+    line-height: 1.2; /* Espaciado entre líneas */
+    text-align: center; /* establece la alineación horizontal de un bloque de texto */
+}
